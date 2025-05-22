@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face{
+  font-family: 'SangBleu Sunrise';
+  src: url('../fonts/SangBleu\ Sunrise/normal') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'SangBleu Sunrise';
+  src: url('../fonts/SangBleu\ Sunrise/bold') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+  font-family: 'SangBleu Sunrise', serif;
+} */
+
+
+h1{
+    font-family: "SangBleu Sunrise", serif;
+}
+
+h2{
+    font-family: "SangBleu Sunrise", serif; 
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn-primary{
+    background-color: #AA6AAA;
+    border-color: #9b59b6;
+}
+  
+.btn-primary:hover{
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+}
+
+/* nav-section */
+
+.logo-wrapper{
+  padding: 10px;
+  background: transparent;
+}
+
+.hero-image-container {
+  margin-top: -50px; 
+}
+
+.navbar{
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+/* hero-section */
+
+.container-bg{
+  background-image: url("../images/there-is-man-walking-sand-dune-desert-generative-ai_56221099.htm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image-container{
+  margin-top: -50px;
+}
+
+
+.img-wrapper{
+  background: white;
+  padding: 8px;
+  border-radius: 1rem;
+  max-width: 1000px;
+  width: 90%;
+}
+
+/* unlock-property-section */
+
+.btn-purple{
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-purple:hover{
+  background-color: #8e44ad;
+  color: white;
+}
+
+.unlock-section h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* .img-wrapper{
+  background: white;
+  padding: 8px;
+  border-radius: 1rem;
+  max-width: 1000px;
+  width: 90%;
+} */
+
+/* cards-section */
+
+.bground{
+  background-color: #bebebeeb;
+}
+
+.bGround{
+  background-color: #EAE4EA;
+}
+
+.backGround{
+  background-color: #AA6AAA;
+}
+
+/* footer-section */
+
+.text-uppercase{
+  font-family: "Cinzel", serif;
+}
+
+.text-uppercase:hover{
+  border-bottom: 2px solid white;
+}
+
+.btn-purple{
+  background-color: #9b59b6;
+  border: none;
+  color: white;
+}
+  
+.btn-purple:hover{
+  background-color: #8e44ad;
+}
+  
+footer ul li a:hover{
+  color: rgba(255, 255, 255, 0.393);
+}
+
+
+
+
+
+
+/* media-queries */
+
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    .unlock-section h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .img-wrapper{
+    padding: 5px;
+    border-radius: 0.75rem;
+  }
+
+  .logo-wrapper img{
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+
