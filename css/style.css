@@ -126,6 +126,22 @@ p{
   background-color: #AA6AAA;
 }
 
+.card{
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.03);
+}
+
+.card-img-top{
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top{
+  transform: scale(1.1);
+}
+
 /* footer-section */
 
 .text-uppercase{
@@ -183,11 +199,33 @@ footer ul li a:hover{
 }
 
 @media screen and (max-width: 400px) {
-    
+  .logo-wrapper img{
+    height: 50px !important; /* smaller logo */
+  }
+
+  .logo-wrapper{
+    top: 10px;
+    left: 10px;
+  }
+
+  .navbar{
+    padding-top: 70px !important;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    
+  .logo-wrapper img{
+    height: 50px !important; /* smaller logo */
+  }
+
+  .logo-wrapper{
+    top: 10px;
+    left: 10px;
+  }
+
+  .navbar{
+    padding-top: 70px !important;
+  }
 }
 
 
