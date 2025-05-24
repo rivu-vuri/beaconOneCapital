@@ -15,9 +15,9 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* body{
@@ -129,7 +129,7 @@ p{
 /* footer-section */
 
 .text-uppercase{
-  font-family: "Cinzel", serif;
+  font-family: "SangBleu Sunrise", serif;
 }
 
 .text-uppercase:hover{
@@ -172,7 +172,7 @@ footer ul li a:hover{
 }
 
 @media screen and (max-width: 565px) {
-    .img-wrapper{
+  .img-wrapper{
     padding: 5px;
     border-radius: 0.75rem;
   }
