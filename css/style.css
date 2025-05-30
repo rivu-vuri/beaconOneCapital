@@ -49,16 +49,31 @@ p{
 
 /* nav-section */
 
+.custom-container{
+  max-width: 1394px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
 .logo-wrapper{
   padding: 10px;
   background: transparent;
+  transform: translateX(60px);
 }
 
-.hero-image-container {
+.logo-img{
+  height: 150px;
+  transition: all 0.3s ease;
+}
+
+
+/* .hero-image-container{
   margin-top: -50px; 
-}
+} */
 
-.navbar{
+.navbar.no-shadow{
   box-shadow: none !important;
   border-bottom: none !important;
 }
@@ -214,14 +229,14 @@ footer ul li a:hover{
 }
 
 @media screen and (max-width: 320px) {
-  .logo-wrapper img{
+  .logo-img{
     height: 50px !important; /* smaller logo */
   }
 
-  .logo-wrapper{
+  /* .logo-wrapper{
     top: 10px;
     left: 10px;
-  }
+  } */
 
   .navbar{
     padding-top: 70px !important;
