@@ -33,6 +33,14 @@ h2{
     font-family: "SangBleu Sunrise", serif; 
 }
 
+h4{
+  font-family: "SangBleu Sunrise", serif;
+}
+
+h5{
+  font-family: "SangBleu Sunrise", serif;
+}
+
 p{
     font-family: "DM Sans", sans-serif;
 }
@@ -157,7 +165,121 @@ p{
   transform: scale(1.1);
 }
 
+/* testimonial-section */
+
+.testimonial-section{
+  background-color: #fefefe;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.get-in-touch-wrapper{
+  bottom: -60px; 
+  width: 100%;
+  max-width: 750px;
+  z-index: 5;
+}
+
+.get-in-touch-box{
+  background-color: #957686;
+  /* border-radius: 10px; */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.text-purple{
+  color: #957686;
+}
+
+.avatar-muted{
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: 0.3s ease;
+}
+
+.avatar-active{
+  border: 2px solid #957686;
+  padding: 3px;
+}
+
+.text-purple{
+  color: #957686;
+}
+
+.btn-purple{
+  background-color: #957686;
+  border: none;
+}
+
+.btn-purple:hover{
+  background-color: #7e5d72;
+}
+
+
+/* .testimonial-section{
+  background-color: #f9f9f9;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.get-in-touch-wrapper{
+  bottom: -60px; 
+  width: 100%;
+  max-width: 750px;
+  z-index: 5;
+}
+
+.get-in-touch-box{
+  background-color: #957686;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.text-purple{
+  color: #957686;
+}
+
+.swiper{
+  padding: 40px 0;
+}
+
+.swiper-slide{
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  color: #957686;
+} */
+
+/* .swiper{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide{
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img{
+  display: block;
+  width: 100%;
+} */
+
+
 /* footer-section */
+
+.bg-Dark{
+  background-color: #18212D;
+}
 
 .text-uppercase{
   font-family: "SangBleu Sunrise", serif;
@@ -200,6 +322,18 @@ footer ul li a:hover{
     .unlock-section h2{
         font-size: 1.5rem;
     }
+
+    /* get-in-touch-with-us-box */
+
+  .get-in-touch-box{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .get-in-touch-wrapper{
+    bottom: -80px;
+    padding: 0 15px;
+  }
 }
 
 @media screen and (max-width: 565px) {
@@ -210,6 +344,22 @@ footer ul li a:hover{
 
   .logo-wrapper img{
     height: 60px;
+  }
+
+  /* testimonial-section */
+
+  .testimonial-section h2{
+    font-size: 1.5rem;
+  }
+
+  .avatar-active{
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .avatar-muted{
+    width: 50px !important;
+    height: 50px !important;
   }
 }
 
